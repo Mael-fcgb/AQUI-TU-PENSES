@@ -56,7 +56,6 @@
     font-weight: 700;
     border-radius: 999px;
     cursor: pointer;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
   }
   
   .btn:hover {
@@ -68,10 +67,29 @@
   display: none;
 }
 
+.question-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .question-text, .result-text {
-  font-size: 18px;
+  font-size: 24px;
   color: #000;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.return{
+  text-decoration: underline;
+  color: #000;
+  font-size: 16px;
 }
   
